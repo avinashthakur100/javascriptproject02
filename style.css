@@ -1,0 +1,60 @@
+
+body{
+    height: 100vh;
+    /* width:100vw; */
+    background-image: url("T_17-01.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+.btn-group{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    
+    /* border: 2px solid ; */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+}
+button{
+    border-radius: 20px;
+}
+img{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 3s ease;
+}
+.speed{
+    position: absolute;
+    bottom: 100px;
+    left: 80%;
+ /* transition: all 3s ease; */
+
+}
+.close {
+    display: none;
+} 
+.speed i{
+ font-size: 3rem;
+ cursor: pointer;
+ transition: all 3s ease;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+
+.clicck {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+
+}
